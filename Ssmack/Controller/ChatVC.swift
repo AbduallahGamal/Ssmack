@@ -17,4 +17,5 @@ class ChatVC: UIViewController {
 
         menuBtn.addTarget(self.revealViewController(), action: #selector(SWRevealViewController.revealToggle(_:)), for: .touchUpInside)
     }
+    
 }
