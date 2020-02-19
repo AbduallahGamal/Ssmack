@@ -9,21 +9,27 @@
 /* Begin PBXBuildFile section */
 		8AF26A5623FCAF1700CF3F18 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF26A5523FCAF1700CF3F18 /* AppDelegate.swift */; };
 		8AF26A5823FCAF1700CF3F18 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF26A5723FCAF1700CF3F18 /* SceneDelegate.swift */; };
-		8AF26A5A23FCAF1700CF3F18 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF26A5923FCAF1700CF3F18 /* ViewController.swift */; };
 		8AF26A5D23FCAF1700CF3F18 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AF26A5B23FCAF1700CF3F18 /* Main.storyboard */; };
 		8AF26A5F23FCAF1800CF3F18 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8AF26A5E23FCAF1800CF3F18 /* Assets.xcassets */; };
 		8AF26A6223FCAF1800CF3F18 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AF26A6023FCAF1800CF3F18 /* LaunchScreen.storyboard */; };
+		8AF26A6D23FCAF6900CF3F18 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AF26A6B23FCAF6900CF3F18 /* SWRevealViewController.m */; };
+		8AF26A7223FCB2E500CF3F18 /* ChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF26A7123FCB2E500CF3F18 /* ChatVC.swift */; };
+		8AF26A7423FCB30C00CF3F18 /* ChannelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF26A7323FCB30C00CF3F18 /* ChannelVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8AF26A5223FCAF1700CF3F18 /* Ssmack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ssmack.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AF26A5523FCAF1700CF3F18 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8AF26A5723FCAF1700CF3F18 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		8AF26A5923FCAF1700CF3F18 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8AF26A5C23FCAF1700CF3F18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8AF26A5E23FCAF1800CF3F18 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8AF26A6123FCAF1800CF3F18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8AF26A6323FCAF1800CF3F18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8AF26A6A23FCAF6800CF3F18 /* Ssmack-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Ssmack-Bridging-Header.h"; sourceTree = "<group>"; };
+		8AF26A6B23FCAF6900CF3F18 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		8AF26A6C23FCAF6900CF3F18 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		8AF26A7123FCB2E500CF3F18 /* ChatVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatVC.swift; sourceTree = "<group>"; };
+		8AF26A7323FCB30C00CF3F18 /* ChannelVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +62,51 @@
 		8AF26A5423FCAF1700CF3F18 /* Ssmack */ = {
 			isa = PBXGroup;
 			children = (
+				8AF26A7023FCB20E00CF3F18 /* Model */,
+				8AF26A6F23FCB20100CF3F18 /* View */,
+				8AF26A6E23FCB1DE00CF3F18 /* Controller */,
+				8AF26A6923FCAF2200CF3F18 /* Supporting files */,
 				8AF26A5523FCAF1700CF3F18 /* AppDelegate.swift */,
 				8AF26A5723FCAF1700CF3F18 /* SceneDelegate.swift */,
-				8AF26A5923FCAF1700CF3F18 /* ViewController.swift */,
 				8AF26A5B23FCAF1700CF3F18 /* Main.storyboard */,
 				8AF26A5E23FCAF1800CF3F18 /* Assets.xcassets */,
 				8AF26A6023FCAF1800CF3F18 /* LaunchScreen.storyboard */,
 				8AF26A6323FCAF1800CF3F18 /* Info.plist */,
 			);
 			path = Ssmack;
+			sourceTree = "<group>";
+		};
+		8AF26A6923FCAF2200CF3F18 /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				8AF26A6C23FCAF6900CF3F18 /* SWRevealViewController.h */,
+				8AF26A6B23FCAF6900CF3F18 /* SWRevealViewController.m */,
+				8AF26A6A23FCAF6800CF3F18 /* Ssmack-Bridging-Header.h */,
+			);
+			path = "Supporting files";
+			sourceTree = "<group>";
+		};
+		8AF26A6E23FCB1DE00CF3F18 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8AF26A7123FCB2E500CF3F18 /* ChatVC.swift */,
+				8AF26A7323FCB30C00CF3F18 /* ChannelVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8AF26A6F23FCB20100CF3F18 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8AF26A7023FCB20E00CF3F18 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -99,6 +141,7 @@
 				TargetAttributes = {
 					8AF26A5123FCAF1700CF3F18 = {
 						CreatedOnToolsVersion = 11.1;
+						LastSwiftMigration = 1110;
 					};
 				};
 			};
@@ -138,9 +181,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8AF26A5A23FCAF1700CF3F18 /* ViewController.swift in Sources */,
 				8AF26A5623FCAF1700CF3F18 /* AppDelegate.swift in Sources */,
 				8AF26A5823FCAF1700CF3F18 /* SceneDelegate.swift in Sources */,
+				8AF26A6D23FCAF6900CF3F18 /* SWRevealViewController.m in Sources */,
+				8AF26A7423FCB30C00CF3F18 /* ChannelVC.swift in Sources */,
+				8AF26A7223FCB2E500CF3F18 /* ChatVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +329,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Ssmack/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -292,7 +338,9 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = FCI.Ssmack;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				SWIFT_OBJC_BRIDGING_HEADER = "Ssmack/Supporting files/Ssmack-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -301,6 +349,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Ssmack/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -309,7 +358,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = FCI.Ssmack;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				SWIFT_OBJC_BRIDGING_HEADER = "Ssmack/Supporting files/Ssmack-Bridging-Header.h";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
