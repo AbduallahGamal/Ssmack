@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0498B7E68808AA60F242C66F /* Pods_Ssmack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CA621E46C50606F7D512378 /* Pods_Ssmack.framework */; };
+		8A4DE0EC23FD3930000B2F4C /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A4DE0EB23FD3930000B2F4C /* GradientView.swift */; };
 		8AF26A5623FCAF1700CF3F18 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF26A5523FCAF1700CF3F18 /* AppDelegate.swift */; };
 		8AF26A5823FCAF1700CF3F18 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF26A5723FCAF1700CF3F18 /* SceneDelegate.swift */; };
 		8AF26A5D23FCAF1700CF3F18 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AF26A5B23FCAF1700CF3F18 /* Main.storyboard */; };
@@ -20,6 +21,7 @@
 
 /* Begin PBXFileReference section */
 		0CA621E46C50606F7D512378 /* Pods_Ssmack.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ssmack.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A4DE0EB23FD3930000B2F4C /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 		8AF26A5223FCAF1700CF3F18 /* Ssmack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ssmack.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AF26A5523FCAF1700CF3F18 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8AF26A5723FCAF1700CF3F18 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -122,6 +124,7 @@
 		8AF26A6F23FCB20100CF3F18 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				8A4DE0EB23FD3930000B2F4C /* GradientView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -251,6 +254,7 @@
 			files = (
 				8AF26A5623FCAF1700CF3F18 /* AppDelegate.swift in Sources */,
 				8AF26A5823FCAF1700CF3F18 /* SceneDelegate.swift in Sources */,
+				8A4DE0EC23FD3930000B2F4C /* GradientView.swift in Sources */,
 				8AF26A6D23FCAF6900CF3F18 /* SWRevealViewController.m in Sources */,
 				8AF26A7423FCB30C00CF3F18 /* ChannelVC.swift in Sources */,
 				8AF26A7223FCB2E500CF3F18 /* ChatVC.swift in Sources */,
