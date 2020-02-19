@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		0498B7E68808AA60F242C66F /* Pods_Ssmack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CA621E46C50606F7D512378 /* Pods_Ssmack.framework */; };
 		8A4DE0EC23FD3930000B2F4C /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A4DE0EB23FD3930000B2F4C /* GradientView.swift */; };
+		8A4DE0EF23FD4EFA000B2F4C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A4DE0EE23FD4EFA000B2F4C /* Constants.swift */; };
+		8AED638423FD6C1400F565A8 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AED638323FD6C1400F565A8 /* LoginVC.swift */; };
+		8AED638623FD755200F565A8 /* createAccountVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AED638523FD755200F565A8 /* createAccountVC.swift */; };
 		8AF26A5623FCAF1700CF3F18 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF26A5523FCAF1700CF3F18 /* AppDelegate.swift */; };
 		8AF26A5823FCAF1700CF3F18 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF26A5723FCAF1700CF3F18 /* SceneDelegate.swift */; };
 		8AF26A5D23FCAF1700CF3F18 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AF26A5B23FCAF1700CF3F18 /* Main.storyboard */; };
@@ -22,6 +25,9 @@
 /* Begin PBXFileReference section */
 		0CA621E46C50606F7D512378 /* Pods_Ssmack.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ssmack.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A4DE0EB23FD3930000B2F4C /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		8A4DE0EE23FD4EFA000B2F4C /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		8AED638323FD6C1400F565A8 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		8AED638523FD755200F565A8 /* createAccountVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = createAccountVC.swift; sourceTree = "<group>"; };
 		8AF26A5223FCAF1700CF3F18 /* Ssmack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ssmack.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AF26A5523FCAF1700CF3F18 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8AF26A5723FCAF1700CF3F18 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -67,6 +73,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		8A4DE0ED23FD4ED9000B2F4C /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				8A4DE0EE23FD4EFA000B2F4C /* Constants.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
 		8AF26A4923FCAF1700CF3F18 = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +102,7 @@
 		8AF26A5423FCAF1700CF3F18 /* Ssmack */ = {
 			isa = PBXGroup;
 			children = (
+				8A4DE0ED23FD4ED9000B2F4C /* Utilities */,
 				8AF26A7023FCB20E00CF3F18 /* Model */,
 				8AF26A6F23FCB20100CF3F18 /* View */,
 				8AF26A6E23FCB1DE00CF3F18 /* Controller */,
@@ -117,6 +132,8 @@
 			children = (
 				8AF26A7123FCB2E500CF3F18 /* ChatVC.swift */,
 				8AF26A7323FCB30C00CF3F18 /* ChannelVC.swift */,
+				8AED638323FD6C1400F565A8 /* LoginVC.swift */,
+				8AED638523FD755200F565A8 /* createAccountVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -254,9 +271,12 @@
 			files = (
 				8AF26A5623FCAF1700CF3F18 /* AppDelegate.swift in Sources */,
 				8AF26A5823FCAF1700CF3F18 /* SceneDelegate.swift in Sources */,
+				8AED638423FD6C1400F565A8 /* LoginVC.swift in Sources */,
 				8A4DE0EC23FD3930000B2F4C /* GradientView.swift in Sources */,
 				8AF26A6D23FCAF6900CF3F18 /* SWRevealViewController.m in Sources */,
+				8A4DE0EF23FD4EFA000B2F4C /* Constants.swift in Sources */,
 				8AF26A7423FCB30C00CF3F18 /* ChannelVC.swift in Sources */,
+				8AED638623FD755200F565A8 /* createAccountVC.swift in Sources */,
 				8AF26A7223FCB2E500CF3F18 /* ChatVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
